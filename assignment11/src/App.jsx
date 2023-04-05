@@ -13,8 +13,8 @@ function App() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-  const correctUsername = "admin";
-  const correctPassword = "cs23ReactRouterAE";
+  const correctUsername = "65130500211";
+  const correctPassword = "cs23";
 
   const handleLogin = (event) => {
     event.preventDefault();
@@ -91,13 +91,13 @@ function App() {
         <form onSubmit={handleLogin} className="login-form">
           <input
             type="text"
-            placeholder="admin"
+            placeholder="username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
           <input
             type="password"
-            placeholder="cs23ReactRouterAE"
+            placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
