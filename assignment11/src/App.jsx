@@ -68,7 +68,7 @@ function App() {
             )
           }
         </NavLink>
-        <NavLink replace to="/profile/219" className="inactive-link">
+        <NavLink replace to="/profile/211" className="inactive-link">
           {({ isActive }) =>
             isActive ? (
               <span className="active-link">Profile</span>
